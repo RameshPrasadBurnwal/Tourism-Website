@@ -1,0 +1,86 @@
+/*----------Home Section--------------*/
+.bg-container{
+    background-image:url("https://as2.ftcdn.net/v2/jpg/06/85/71/11/1000_F_685711177_sBr8YTiEspA4qmZPTyRnuTjewJYWdXU5.jpg");
+    background-size:cover;
+    height:100vh;
+}
+.bg-container1{
+    background-color:#fff;
+    height:300px;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+}
+.heading{
+    font-family:"Roboto";
+    font-size:40px;
+    font-weight:bolder;
+    text-decoration:underline;
+}
+.paragraph{
+    font-family:"Roboto";
+    font-size:20px;
+    font-weight:bold;
+}
+.button{
+    border-radius:25px;
+    border-color:blue;
+    color:black;
+    background-color:aqua;
+    height:50px;
+    width:200px;
+    font-weight:bold;
+    font-size:15px;
+
+}
+/*----------------favourite_places Section--------------------*/
+.favourite-place-bg-container{
+    background-image:url("https://img.freepik.com/premium-photo/boats-moored-sea-against-trees_1048944-15159014.jpg?w=996");
+    background-size:cover;
+    height:100vh;
+    padding:20px;
+}
+.fav-places-heading{
+    color:white;
+    font-family:"Roboto";
+    font-size:50px;
+    font-weight:bold;
+}
+.fav-places-container{
+    background-color:white;
+    padding:20px;
+    border-radius:25px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.sub-cont-heading{
+    font-family:"Roboto";
+    font-size:40px;
+    font-weight:bold;
+}
+.sub-cont-paragraph{
+    font-size:20px;
+    font-family:"Roboto";
+}
+.image{
+    height:100px;
+    width:100px;
+    border-radius:15px;
+}
+.fav-page-btn{
+    border-radius:25px;
+    background-color:blueviolet;
+    color:white;
+}
+/*---------------Details Section Page------------------------*/
+.bg-details-section-page{
+    background-image:url("https://img.freepik.com/free-vector/india-travel-background_1284-22029.jpg?t=st=1713104714~exp=1713108314~hmac=3d77283b84ecb94e884d4d16063e90773e0e083e7fc50df768937315cdc29c95&w=740");
+    background-size:cover;
+    height:100vh;
+    padding:20px;
+}
+.detail-section-heading{
+    font-size:40px;
+    font-family:"Roboto";
+    font-weight:bold;
+    text-decoration:underline;
+}

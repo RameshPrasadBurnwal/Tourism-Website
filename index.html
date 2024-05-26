@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <title>Tourism Website</title>
+  </head>
+  <body>
+    <!-------------Home Section-------------------->
+    <div id="sectionhome">
+      <div class="bg-container d-flex flex-column justify-content-end">
+        <div
+          class="bg-container1 text-center d-flex flex-column justify-content-center"
+        >
+          <h1 class="heading">Tourism</h1>
+          <p class="paragraph">Plan your trip</p>
+          <div>
+            <button
+              class="button text-center"
+              onclick="display('sectionfavouriteplaces')"
+            >
+              Get started
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------Favourite Places Section---------------------------->
+    <div id="sectionfavouriteplaces">
+      <div class="favourite-place-bg-container">
+        <h1 class="fav-places-heading">Favourite Places</h1>
+        <div
+          class="fav-places-container d-flex flex-row justify-content-between"
+        >
+          <div class="fav-places-sub-cont-1">
+            <h1 class="sub-cont-heading">Taj Mahal</h1>
+            <p class="sub-cont-paragraph">
+              If there was just one symbol to represent all of India, it would
+              be the Taj Mahal.
+            </p>
+          </div>
+          <img
+            src="https://img.freepik.com/free-photo/mesmerizing-shot-famous-historic-taj-mahal-agra-india_181624-16028.jpg?t=st=1712916357~exp=1712919957~hmac=d082c10061f3797338a7842996603326aa908bf05c3cf11a56e3ba7c0bad90f6&w=996"
+            class="image"
+            onclick="display('sectionTajmahalDetails')"
+          />
+        </div>
+        <div
+          class="fav-places-container d-flex flex-row justify-content-between"
+        >
+          <div class="fav-places-sub-cont-1">
+            <h1 class="sub-cont-heading">Mysore Palace</h1>
+            <p class="sub-cont-paragraph">
+              The Mysore Palace is a historical palace and the royal residence
+              at Mysore.
+            </p>
+          </div>
+          <img
+            src="https://as1.ftcdn.net/v2/jpg/01/16/06/34/1000_F_116063444_xb7kD6nbAxXjCiAhWkheT7QmMhyyoA7c.jpg"
+            class="image"
+            onclick="display('sectionMysorePalaceDetails')"
+          />
+        </div>
+        <div
+          class="fav-places-container d-flex flex-row justify-content-between"
+        >
+          <div class="fav-places-sub-cont-1">
+            <h1 class="sub-cont-heading">Golden Temple</h1>
+            <p class="sub-cont-paragraph">
+              Amritsar is world-famous for the beautiful and highly revered
+              Golden Temple.
+            </p>
+          </div>
+          <img
+            src="https://as1.ftcdn.net/v2/jpg/00/78/51/22/1000_F_78512269_MCztTw8ZCBwAcvOLLROoNeOl6o1xrrc3.jpg"
+            class="image"
+            onclick="display('sectionGoldenTempleDetails')"
+          />
+        </div>
+        <div
+          class="fav-places-container d-flex flex-row justify-content-between"
+        >
+          <div class="fav-places-sub-cont-1">
+            <h1 class="sub-cont-heading">Varanasi Temple</h1>
+            <p class="sub-cont-paragraph">
+              Varanasi Temple is most famous Hindu temples dedicated to Lord
+              Shiva.
+            </p>
+          </div>
+          <img
+            src="https://as1.ftcdn.net/v2/jpg/06/76/07/52/1000_F_676075284_O5OjMFca6oDHOfEKYLnFKMCkbvlfTpIG.jpg"
+            class="image"
+            onclick="display('sectionVaranasiTempleDetails')"
+          />
+        </div>
+        <button class="fav-page-btn" onclick="display('sectionhome')">
+          Back to Home
+        </button>
+      </div>
+    </div>
+    <!-----------------Detailed View Section Page---------------------------->
+    <div id="setionDetailsPage">
+      <div class="bg-details-section-page">
+        <h1 class="detail-section-heading">Detailed View</h1>
+        <div id="sectionTajmahalDetails">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/49HTIoCccDY?rel=0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <button
+            class="btn btn-primary"
+            onclick="display('sectionfavouriteplaces')"
+          >
+            Go to favourite sec back
+          </button>
+        </div>
+        <div id="sectionMysorePalaceDetails">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/oIePw1Pq70w?rel=0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <button
+            class="btn btn-primary"
+            onclick="display('sectionfavouriteplaces')"
+          >
+            Go to favourite sec back
+          </button>
+        </div>
+        <div id="sectionVaranasiTempleDetails">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/2lUkBy4UgLQ?rel=0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <button
+            class="btn btn-primary"
+            onclick="display('sectionfavouriteplaces')"
+          >
+            Go to favourite sec back
+          </button>
+        </div>
+        <div id="sectionGoldenTempleDetails">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/Zv7xSA31ZEI?rel=0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <button
+            class="btn btn-primary"
+            onclick="display('sectionfavouriteplaces')"
+          >
+            Go to favourite sec back
+          </button>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>
